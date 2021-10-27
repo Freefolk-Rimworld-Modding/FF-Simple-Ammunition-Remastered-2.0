@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- ========== Pre-Industrial ========== -->
+
+<!-- Mini Turret -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Turret_MiniTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    <value>
+      <thingDefs>
+	    <li>FF_Ammunition_Industrial</li>
+	  </thingDefs>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Turret_MiniTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelMultiplier</xpath>
+    <value>
+      <fuelMultiplier>1</fuelMultiplier>
+    </value>
+  </Operation>
+
+<!-- Autocannon Turret -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Turret_Autocannon"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    <value>
+      <thingDefs>
+	    <li>FF_Ammunition_Industrial</li>
+	  </thingDefs>
+    </value>
+  </Operation>
+
+<!-- Uranium Slug Turret -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Turret_Sniper"]/label</xpath>
+    <value>
+      <label>heavy slug turret</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Turret_Sniper"]/description</xpath>
+    <value>
+      <description>An armor-piercing turret. Its ultra-dense uranium barrel can punch through heavy armor, but it requires new heavy slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Turret_Sniper"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    <value>
+      <thingDefs>
+	    <li>FF_Ammunition_Industrial</li>
+	  </thingDefs>
+    </value>
+  </Operation>
+
+</Patch>
