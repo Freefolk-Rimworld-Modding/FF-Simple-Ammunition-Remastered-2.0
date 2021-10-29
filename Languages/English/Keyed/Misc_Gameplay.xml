@@ -27,10 +27,10 @@
 	<FF_Industrial_Desc>This weapon fires industrial ammunition.</FF_Industrial_Desc>
 
 	<FF_Spacer_Ammo>Spacer Ammunition</FF_Spacer_Ammo>
-	<FF_Spacer_Desc>This weapon fires spacer ammunition.</FF_Spacer_Desc>
+	<FF_Spacer_Desc>This weapon fires charged shot ammunition.</FF_Spacer_Desc>
 
 	<FF_Ultratech_Ammo>Ultratech Ammunition</FF_Ultratech_Ammo>
-	<FF_Ultratech_Desc>This weapon fires ultratech ammunition.</FF_Ultratech_Desc>
+	<FF_Ultratech_Desc>This weapon fires hex cell ammunition.</FF_Ultratech_Desc>
 
 	<FF_Archotech_Ammo>Archotech Ammunition</FF_Archotech_Ammo>
 	<FF_Archotech_Desc>This weapon fires archotech ammunition.</FF_Archotech_Desc>

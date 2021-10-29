@@ -60,6 +60,12 @@
 
         <li IfModActive="rimsenal.EVP">1.3/Mods/Rimsenal/Rimsenal_Vanilla</li>
 
+        <!-- <li IfModActive="rimsenal.security">1.3/Mods/Rimsenal/Rimsenal_Security</li> -->
+
+        <!-- <li IfModActive="rimsenal.federation">1.3/Mods/Rimsenal/Rimsenal_Federation</li> -->
+
+        <!-- <li IfModActive="rimsenal.feral">1.3/Mods/Rimsenal/Rimsenal_Feral</li> -->
+
       <!-- RimmuNation -->
 
         <!-- <li IfModActive="CP.RimmuNation.2.Security">1.3/Mods/RimmuNation/RimmuNation_Security</li> -->
@@ -165,6 +171,9 @@
       <!-- One Offs -->
 
         <li IfModActive="mrwhiskas.antimaterial">1.3/Mods/OneOff/MrW_AntiMaterial</li>
+
+        <li IfModActive="Mlie.ApexRimworldLegends">1.3/Mods/Ammo_Ultratech</li>
+        <li IfModActive="Mlie.ApexRimworldLegends">1.3/Mods/OneOff/ApexRimworldLegends</li>
 
         <li IfModActive="Aoba.Musket">1.3/Mods/Ammo_Preindustial</li>
         <li IfModActive="Aoba.Musket">1.3/Mods/OneOff/Black_Armory</li>
