@@ -177,26 +177,6 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/TraderKindDef[defName="Base_Neolithic_Standard"]/stockGenerators</xpath>
-    <value>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>FF_Ammunition_Primitive</thingDef>
-        <countRange>50~100</countRange>
-      </li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard"]/stockGenerators</xpath>
-    <value>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>FF_Ammunition_Industrial</thingDef>
-        <countRange>100~150</countRange>
-      </li>
-    </value>
-  </Operation>
-
 <!-- Preindustrial -->
 
   <Operation Class="PatchOperationConditional">
@@ -205,7 +185,17 @@
       <operations>
 
         <li Class="PatchOperationAdd">
-          <xpath>Defs/TraderKindDef[defName="Orbital_BulkGoods"]/stockGenerators</xpath>
+          <xpath>Defs/TraderKindDef[defName="Base_Neolithic_Standard"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>FF_Ammunition_Preindustrial</thingDef>
+              <countRange>150~300</countRange>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/TraderKindDef[defName="Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
           <value>
             <li Class="StockGenerator_SingleDef">
               <thingDef>FF_Ammunition_Preindustrial</thingDef>
@@ -215,7 +205,7 @@
         </li>
 
         <li Class="PatchOperationAdd">
-          <xpath>Defs/TraderKindDef[defName="Orbital_CombatSupplier"]/stockGenerators</xpath>
+          <xpath>Defs/TraderKindDef[defName="Caravan_Neolithic_WarMerchant"]/stockGenerators</xpath>
           <value>
             <li Class="StockGenerator_SingleDef">
               <thingDef>FF_Ammunition_Preindustrial</thingDef>
@@ -225,7 +215,7 @@
         </li>
 
         <li Class="PatchOperationAdd">
-          <xpath>Defs/TraderKindDef[defName="Orbital_Exotic"]/stockGenerators</xpath>
+          <xpath>Defs/TraderKindDef[defName="Caravan_Neolithic_Slaver"]/stockGenerators</xpath>
           <value>
             <li Class="StockGenerator_SingleDef">
               <thingDef>FF_Ammunition_Preindustrial</thingDef>
@@ -235,7 +225,7 @@
         </li>
 
         <li Class="PatchOperationAdd">
-          <xpath>Defs/TraderKindDef[defName="Orbital_PirateMerchant"]/stockGenerators</xpath>
+          <xpath>Defs/TraderKindDef[defName="Caravan_Neolithic_ShamanMerchant"]/stockGenerators</xpath>
           <value>
             <li Class="StockGenerator_SingleDef">
               <thingDef>FF_Ammunition_Preindustrial</thingDef>
