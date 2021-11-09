@@ -196,6 +196,8 @@
         <li IfModActive="SimonsGuns.velcroboy333">1.3/Mods/Ammo_Preindustial</li>
         <li IfModActive="SimonsGuns.velcroboy333">1.3/Mods/OneOff/Simons_Guns</li>
 
+        <li IfModActive="AKRI.StarcraftersArmory">1.3/Mods/OneOff/Star_Crafters_Armory</li>
+
         <li IfModActive="Support.shotguns">1.3/Mods/OneOff/Support_Shotguns</li>
 
         <li IfModActive="Mlie.Westerado">1.3/Mods/Ammo_Preindustial</li>
