@@ -198,6 +198,9 @@
 
         <li IfModActive="Support.shotguns">1.3/Mods/OneOff/Support_Shotguns</li>
 
+        <li IfModActive="Mlie.Westerado">1.3/Mods/Ammo_Preindustial</li>
+        <li IfModActive="Mlie.Westerado">1.3/Mods/OneOff/Westerado</li>
+
       <!-- Secret Support, shhh -->
 
         <li IfModActive="smashphil.vehicles">1.3/Mods/Vehicle/Vehicle_Framework</li>
