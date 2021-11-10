@@ -54,6 +54,12 @@
         <li IfModActive="RimEffect.N7">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="RimEffect.N7">1.3/Mods/RimEffect/RimEffect_N7</li>
 
+        <li IfModActive="RimEffect.Drell">1.3/Mods/Ammo_Ultratech</li>
+        <li IfModActive="RimEffect.Drell">1.3/Mods/RimEffect/RimEffect_Drell</li>
+
+        <li IfModActive="RimEffect.AsariReapers">1.3/Mods/Ammo_Ultratech</li>
+        <li IfModActive="RimEffect.AsariReapers">1.3/Mods/RimEffect/RimEffect_AsariReapers</li>
+
       <!-- Rimsenal -->
 
         <li IfModActive="rimsenal.core">1.3/Mods/Rimsenal/Rimsenal_Core</li>
