@@ -12,6 +12,8 @@
 
       <!-- Vanilla Expanded -->
 
+        <li IfModActive="VanillaExpanded.VAEAccessories">1.3/Mods/Vanilla_Expanded/VAE_Accessories</li>
+
         <li IfModActive="OskarPotocki.VFE.Insectoid">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="OskarPotocki.VFE.Insectoid">1.3/Mods/Vanilla_Expanded/VFE_Insectoids</li>
 
