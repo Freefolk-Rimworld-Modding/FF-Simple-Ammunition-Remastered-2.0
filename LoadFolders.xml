@@ -99,10 +99,17 @@
       <!-- Fallout Collaboration Project -->
 
         <li IfModActive="Rick.FCPFNVARLMG">1.3/Mods/FCP/FCP_AssaultLMG</li>
+        <li IfModActive="Rick.FCPFNVARLMG">1.3/Mods/FCP/FCP_All_American</li>
+        <li IfModActive="Rick.FCPFNVARLMG">1.3/Mods/FCP/FCP_Marksman_Carbine</li>
 
         <li IfModActive="Rick.FCPCRE">1.3/Mods/FCP/FCP_Chinese</li>
 
         <li IfModActive="Rick.FCPCCRP">1.3/Mods/FCP/FCP_CreationClub</li>
+
+        <li IfModActive="Rick.FCPDR">1.3/Mods/FCP/FCP_DesertRanger</li>
+        <li IfModActive="Rick.FCPDR">1.3/Mods/FCP/FCP_Hunting_Revolver</li>
+        <li IfModActive="Rick.FCPDR">1.3/Mods/FCP/FCP_Marksman_Carbine</li>
+        <li IfModActive="Rick.FCPDR">1.3/Mods/FCP/FCP_R91</li>
 
         <li IfModActive="Rick.FCPFNVHeavyWeapons">1.3/Mods/FCP/FCP_HeavyWeapons</li>
 
@@ -112,11 +119,16 @@
         <li IfModActive="Rick.FCPFNVPsitols">1.3/Mods/FCP/FCP_Pistol</li>
 
         <li IfModActive="Rick.FCPFNVRevolvers">1.3/Mods/FCP/FCP_Revolvers</li>
+        <li IfModActive="Rick.FCPFNVRevolvers">1.3/Mods/FCP/FCP_Hunting_Revolver</li>
 
         <li IfModActive="Rick.FCPFNVShotguns">1.3/Mods/FCP/FCP_Shotguns</li>
 
         <li IfModActive="Rick.FCPFNVSMG">1.3/Mods/Ammo_Preindustial</li>
         <li IfModActive="Rick.FCPFNVSMG">1.3/Mods/FCP/FCP_Submachine</li>
+
+        <li IfModActive="Rick.FCPUSA">1.3/Mods/FCP/FCP_All_American</li>
+        <li IfModActive="Rick.FCPUSA">1.3/Mods/FCP/FCP_Marksman_Carbine</li>
+        <li IfModActive="Rick.FCPUSA">1.3/Mods/FCP/FCP_R91</li>
 
       <!-- Kitsune -->
 
