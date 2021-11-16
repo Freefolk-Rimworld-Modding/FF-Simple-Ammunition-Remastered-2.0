@@ -14,8 +14,12 @@
 
         <li IfModActive="VanillaExpanded.VAEAccessories">1.3/Mods/Vanilla_Expanded/VAE_Accessories</li>
 
+        <li IfModActive="VanillaExpanded.VFEA">1.3/Mods/Vanilla_Expanded/VFE_Ancients</li>
+
         <li IfModActive="OskarPotocki.VFE.Insectoid">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="OskarPotocki.VFE.Insectoid">1.3/Mods/Vanilla_Expanded/VFE_Insectoids</li>
+
+        <li IfModActive="OskarPotocki.VFE.Mechanoid">1.3/Mods/Vanilla_Expanded/VFE_Mechanoids</li>
 
         <li IfModActive="OskarPotocki.VanillaFactionsExpanded.MedievalModule">1.3/Mods/Ammo_Preindustial</li>
         <li IfModActive="OskarPotocki.VanillaFactionsExpanded.MedievalModule">1.3/Mods/Vanilla_Expanded/VFE_Medieval</li>
