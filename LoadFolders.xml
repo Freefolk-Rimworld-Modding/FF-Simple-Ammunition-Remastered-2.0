@@ -80,6 +80,11 @@
 
         <li IfModActive="CP.RimmuNation.2.Weapons">1.3/Mods/RimmuNation/RimmuNation_Weapons</li>
 
+      <!-- RimFantasy -->
+
+        <li IfModActive="Sierra.RF.ArcaneWeapons">1.3/Mods/Ammo_Preindustial</li>
+        <li IfModActive="Sierra.RF.ArcaneWeapons">1.3/Mods/RimFantasy/RF_Arcane_Weapons</li>
+
       <!-- ALIEN Armory -->
 
         <li IfModActive="ALIEN.CensoredArmory">1.3/Mods/Armory_ALIEN/Censored</li>
