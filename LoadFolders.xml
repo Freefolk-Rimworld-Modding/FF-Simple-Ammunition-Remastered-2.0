@@ -184,6 +184,10 @@
 
         <li IfModActive="salmontoastie.lizardfolk,salmontoastie.lizardfolk_copy">1.3/Mods/Races/Lizardfolk_FR</li>
 
+        <li IfModActive="SutSutMan.MarilyntheMinchoWorshipperWitchHARver">1.3/Mods/Races/Marilyn</li>
+
+        <li IfModActive="SutSutMan.MinchoTheMintChocoSlimeHARver">1.3/Mods/Races/Mincho</li>
+
         <li IfModActive="salmontoastie.Minotaur">1.3/Mods/Races/Minotaur_FR</li>
 
         <li IfModActive="syrchalis.naga">1.3/Mods/Ammo_Ultratech</li>
