@@ -166,8 +166,12 @@
         <li IfModActive="ChJees.Androids">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="ChJees.Androids">1.3/Mods/Races/Androids</li>
 
+        <li IfModActive="rmk.anthrorace">1.3/Mods/Races/Anthro</li>
+
         <li IfModActive="Mlie.ArachneRace">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="Mlie.ArachneRace">1.3/Mods/Races/Arachne</li>
+
+        <li IfModActive="Greiger.AsperoRace">1.3/Mods/Races/Aspero</li>
 
         <li IfModActive="Mlie.BlackWidows">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="Mlie.BlackWidows">1.3/Mods/Races/Black_Widow</li>
@@ -178,16 +182,24 @@
 
         <li IfModActive="Mlie.LogannRace">1.3/Mods/Races/Logann</li>
 
+        <li IfModActive="salmontoastie.lizardfolk,salmontoastie.lizardfolk_copy">1.3/Mods/Races/Lizardfolk_FR</li>
+
+        <li IfModActive="salmontoastie.Minotaur">1.3/Mods/Races/Minotaur_FR</li>
+
         <li IfModActive="syrchalis.naga">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="syrchalis.naga">1.3/Mods/Races/Naga</li>
 
         <li IfModActive="zerithos.NiHal">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="zerithos.NiHal">1.3/Mods/Races/NiHal</li>
 
+        <li IfModActive="Ayameduki.HARNeclose">1.3/Mods/Races/Neclose</li>
+
         <li IfModActive="Farmradish.Nyaron">1.3/Mods/Races/Nyaron</li>
 
         <li IfModActive="dianawinters.Orassans">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="dianawinters.Orassans">1.3/Mods/Races/Orassans</li>
+
+        <li IfModActive="shauaputa.pawnboldrace">1.3/Mods/Races/Pawnbold</li>
 
         <li IfModActive="RunneLatki.RabbieRaceMod">1.3/Mods/Races/Rabbie</li>
 
@@ -207,6 +219,8 @@
 
         <li IfModActive="JangoDsoul.ExiledDawn">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="JangoDsoul.ExiledDawn">1.3/Mods/Factions/ExiledDawn</li>
+
+        <li IfModActive="Qux.factionmafia">1.3/Mods/Factions/Faction_Mafia</li>
 
         <li IfModActive="Vanya.Polarisbloc.SecurityForce">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="Vanya.Polarisbloc.SecurityForce">1.3/Mods/Factions/PolarisBloc_Security</li>
