@@ -171,6 +171,8 @@
         <li IfModActive="Mlie.ArachneRace">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="Mlie.ArachneRace">1.3/Mods/Races/Arachne</li>
 
+        <li IfModActive="Roskii.Astoriel,Roskii.AstorielRenewal">1.3/Mods/Races/Astoriel</li>
+
         <li IfModActive="Greiger.AsperoRace">1.3/Mods/Races/Aspero</li>
 
         <li IfModActive="Mlie.BlackWidows">1.3/Mods/Ammo_Ultratech</li>
