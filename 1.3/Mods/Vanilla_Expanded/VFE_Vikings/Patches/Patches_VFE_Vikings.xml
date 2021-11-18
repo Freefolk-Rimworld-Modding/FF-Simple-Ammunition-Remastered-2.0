@@ -26,7 +26,7 @@
           </AmmoFilter>
           <ItemsPerShot>1</ItemsPerShot>
           <ReloadTimePerShot>0.1</ReloadTimePerShot>
-		  <ReloadSound>HeavyCryptoGunPickup</ReloadSound>
+		  <ReloadSound>VFEV_HeavyCryptoGunPickup</ReloadSound>
           <GenerateAmmo>
             <FF_Ammunition_Ultratech>10~30</FF_Ammunition_Ultratech>
           </GenerateAmmo>
@@ -76,7 +76,7 @@
           </AmmoFilter>
           <ItemsPerShot>1</ItemsPerShot>
           <ReloadTimePerShot>0.05</ReloadTimePerShot>
-		  <ReloadSound>CryptoGunPickup</ReloadSound>
+		  <ReloadSound>VFEV_CryptoGunPickup</ReloadSound>
           <GenerateAmmo>
             <FF_Ammunition_Ultratech>20~30</FF_Ammunition_Ultratech>
           </GenerateAmmo>
@@ -126,7 +126,7 @@
           </AmmoFilter>
           <ItemsPerShot>1</ItemsPerShot>
           <ReloadTimePerShot>0.05</ReloadTimePerShot>
-		  <ReloadSound>CryptoGunPickup</ReloadSound>
+		  <ReloadSound>VFEV_CryptoGunPickup</ReloadSound>
           <GenerateAmmo>
             <FF_Ammunition_Ultratech>30~50</FF_Ammunition_Ultratech>
           </GenerateAmmo>
@@ -176,7 +176,7 @@
           </AmmoFilter>
           <ItemsPerShot>1</ItemsPerShot>
           <ReloadTimePerShot>0.05</ReloadTimePerShot>
-		  <ReloadSound>HeavyCryptoGunPickup</ReloadSound>
+		  <ReloadSound>VFEV_HeavyCryptoGunPickup</ReloadSound>
           <GenerateAmmo>
             <FF_Ammunition_Ultratech>45~90</FF_Ammunition_Ultratech>
           </GenerateAmmo>
@@ -200,17 +200,5 @@
       </li>
     </value>
   </Operation>
-
-<!-- Traders -->
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/TraderKindDef[defName="VFEV_Caravan_Looter"]/stockGenerators</xpath>
-		<value>
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>FF_Ammunition_Primitive</thingDef>
-				<countRange>300~500</countRange>
-			</li>
-		</value>
-	</Operation>
 
 </Patch>

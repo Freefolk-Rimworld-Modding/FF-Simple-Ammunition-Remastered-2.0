@@ -99,6 +99,10 @@
 
         <li IfModActive="ALIEN.TzarArmory">1.3/Mods/Armory_ALIEN/Tzar</li>
 
+      <!-- Dubwise -->
+
+        <li IfModActive="Dubwise.Rimatomics">1.3/Mods/Dubwise/Rimatomics</li>
+
       <!-- Eccentric Tech -->
 
         <li IfModActive="Aelanna.EccentricTech.Flares2">1.3/Mods/Eccentric_Tech/ET_Flares</li>
@@ -201,9 +205,7 @@
         <li IfModActive="Ayameduki.HARNeclose">1.3/Mods/Races/Neclose</li>
 
         <li IfModActive="Farmradish.Nyaron">1.3/Mods/Races/Nyaron</li>
-        <li IfModActive="Farmradish.Nyaron">1.3/Mods/Races/Nyaron_Lite</li>
-
-        <li IfModActive="Farmradish.NyaronLite">1.3/Mods/Races/Nyaron_Lite</li>
+        <li IfModActive="Farmradish.Nyaron,Farmradish.NyaronLite">1.3/Mods/Races/Nyaron_Lite</li>
 
         <li IfModActive="dianawinters.Orassans">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="dianawinters.Orassans">1.3/Mods/Races/Orassans</li>
