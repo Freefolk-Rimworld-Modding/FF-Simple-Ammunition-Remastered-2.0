@@ -202,6 +202,9 @@
 
         <li IfModActive="salmontoastie.Minotaur">1.3/Mods/Races/Minotaur_FR</li>
 
+        <li IfModActive="WaffelF.MoosesianRace">1.3/Mods/Ammo_Preindustial</li>
+        <li IfModActive="WaffelF.MoosesianRace">1.3/Mods/Races/Moosesian</li>
+
         <li IfModActive="syrchalis.naga">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="syrchalis.naga">1.3/Mods/Races/Naga</li>
 
@@ -219,6 +222,8 @@
         <li IfModActive="dianawinters.Orassans">1.3/Mods/Races/Orassans</li>
 
         <li IfModActive="shauaputa.pawnboldrace">1.3/Mods/Races/Pawnbold</li>
+
+        <li IfModActive="AhnDemi.PanieltheAutomata">1.3/Mods/Races/Paniel</li>
 
         <li IfModActive="RunneLatki.RabbieRaceMod">1.3/Mods/Races/Rabbie</li>
 
