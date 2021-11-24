@@ -202,6 +202,8 @@
         <li IfModActive="zerithos.NiHal">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="zerithos.NiHal">1.3/Mods/Races/NiHal</li>
 
+        <li IfModActive="Ayameduki.HARNearmare">1.3/Mods/Races/Nearmare</li>
+
         <li IfModActive="Ayameduki.HARNeclose">1.3/Mods/Races/Neclose</li>
 
         <li IfModActive="Farmradish.Nyaron">1.3/Mods/Races/Nyaron</li>
@@ -217,6 +219,9 @@
         <li IfModActive="Mlie.RaccRace">1.3/Mods/Races/Racc</li>
 
         <li IfModActive="jkviolet.rakkleracemode">1.3/Mods/Races/Rakkle</li>
+
+        <li IfModActive="Solaris.RatkinRaceMod">1.3/Mods/Ammo_Preindustial</li>
+        <li IfModActive="Solaris.RatkinRaceMod">1.3/Mods/Races/Ratkin</li>
 
         <li IfModActive="NeziTheAvali.RimVali">1.3/Mods/Races/RimVali</li>
 
