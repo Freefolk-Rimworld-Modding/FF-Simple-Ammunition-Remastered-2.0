@@ -193,6 +193,8 @@
 
         <li IfModActive="rmk.anthrorace">1.3/Mods/Races/Anthro</li>
 
+        <li IfModActive="sera.apinialienrace">1.3/Mods/Races/Apini</li>
+
         <li IfModActive="Mlie.ArachneRace">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="Mlie.ArachneRace">1.3/Mods/Races/Arachne</li>
 
@@ -202,6 +204,10 @@
 
         <li IfModActive="Mlie.BlackWidows">1.3/Mods/Ammo_Ultratech</li>
         <li IfModActive="Mlie.BlackWidows">1.3/Mods/Races/Black_Widow</li>
+
+        <li IfModActive="goudaquiche.CrystalRace">1.3/Mods/Races/Crystal</li>
+
+        <li IfModActive="ashilstraza.races.cute">1.3/Mods/Races/Cutebold</li>
 
         <li IfModActive="Mlie.FerrexRace">1.3/Mods/Races/Ferrex</li>
 
@@ -218,6 +224,8 @@
         <li IfModActive="SutSutMan.MarilyntheMinchoWorshipperWitchHARver">1.3/Mods/Races/Marilyn</li>
 
         <li IfModActive="SutSutMan.MinchoTheMintChocoSlimeHARver">1.3/Mods/Races/Mincho</li>
+
+        <li IfModActive="snowcraft.MinoRace">1.3/Mods/Races/Minotaur</li>
 
         <li IfModActive="salmontoastie.Minotaur">1.3/Mods/Races/Minotaur_FR</li>
 
