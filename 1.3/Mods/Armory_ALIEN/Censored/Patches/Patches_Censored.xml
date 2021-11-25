@@ -1056,48 +1056,5 @@
 <!-- Eintossflammenwerfer 46 Single Use -->
 
 <!-- M24 Stielhandgranate Grenade -->
-  
-
-<!-- MG 42 Turret -->
-
-	<!-- Fuel Label -->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Turret_MG_42_RA"]/comps/li/fuelLabel</xpath>
-		<value>
-			<fuelLabel>Shots until out of ammo</fuelLabel>
-		</value>
-	</Operation>
-
-	<!-- Feul Gizmo Label -->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Turret_MG_42_RA"]/comps/li/fuelGizmoLabel</xpath>
-		<value>
-			<fuelGizmoLabel>Ammo left</fuelGizmoLabel>
-		</value>
-	</Operation>
-
-	<!-- Out of fuel Message -->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Turret_MG_42_RA"]/comps/li/outOfFuelMessage</xpath>
-		<value>
-			<outOfFuelMessage>Cannot shoot: Needs ammo</outOfFuelMessage>
-		</value>
-	</Operation>
-
-	<!-- Ammo Type -->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Turret_MG_42_RA"]/comps/li/fuelFilter</xpath>
-		<value>
-			<fuelFilter><thingDefs><li>FF_Ammunition_Industrial</li></thingDefs></fuelFilter>
-		</value>
-	</Operation>
-
-	<!-- Cost efficiency -->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Turret_MG_42_RA"]/comps/li/fuelMultiplier</xpath>
-		<value>
-			<fuelMultiplier>1</fuelMultiplier>
-		</value>
-	</Operation>
 
 </Patch>

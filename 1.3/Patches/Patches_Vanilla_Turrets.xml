@@ -6,7 +6,35 @@
 <!-- Mini Turret -->
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="Turret_MiniTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    <xpath>Defs/ThingDef[defName="Turret_MiniTurret"]/description</xpath>
+    <value>
+      <description>A portable automatic turret. Requires industrial ammo to reload. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_MiniTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
+    <value>
+      <fuelLabel>Shots until out of ammo</fuelLabel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_MiniTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
+    <value>
+      <fuelGizmoLabel>Ammo</fuelGizmoLabel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_MiniTurret"]/comps/li[@Class="CompProperties_Refuelable"]/outOfFuelMessage</xpath>
+    <value>
+      <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_MiniTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
     <value>
       <thingDefs>
 	    <li>FF_Ammunition_Industrial</li>
@@ -15,7 +43,7 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="Turret_MiniTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelMultiplier</xpath>
+    <xpath>Defs/ThingDef[defName="Turret_MiniTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelMultiplier</xpath>
     <value>
       <fuelMultiplier>1</fuelMultiplier>
     </value>
@@ -24,7 +52,35 @@
 <!-- Autocannon Turret -->
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="Turret_Autocannon"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    <xpath>Defs/ThingDef[defName="Turret_Autocannon"]/description</xpath>
+    <value>
+      <description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but requires industrial ammo to reload. It cannot fire at close-up targets, and may explode when damaged.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_Autocannon"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
+    <value>
+      <fuelLabel>Shots until out of ammo</fuelLabel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_Autocannon"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
+    <value>
+      <fuelGizmoLabel>Ammo</fuelGizmoLabel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_Autocannon"]/comps/li[@Class="CompProperties_Refuelable"]/outOfFuelMessage</xpath>
+    <value>
+      <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_Autocannon"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
     <value>
       <thingDefs>
 	    <li>FF_Ammunition_Industrial</li>
@@ -35,21 +91,35 @@
 <!-- Uranium Slug Turret -->
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="Turret_Sniper"]/label</xpath>
-    <value>
-      <label>heavy slug turret</label>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="Turret_Sniper"]/description</xpath>
+    <xpath>Defs/ThingDef[defName="Turret_Sniper"]/description</xpath>
     <value>
       <description>An armor-piercing turret. Its ultra-dense uranium barrel can punch through heavy armor, but it requires new heavy slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="Turret_Sniper"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    <xpath>Defs/ThingDef[defName="Turret_Sniper"]/label</xpath>
+    <value>
+      <label>heavy slug turret</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_Sniper"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
+    <value>
+      <fuelGizmoLabel>Ammo</fuelGizmoLabel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_Sniper"]/comps/li[@Class="CompProperties_Refuelable"]/outOfFuelMessage</xpath>
+    <value>
+      <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_Sniper"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
     <value>
       <thingDefs>
 	    <li>FF_Ammunition_Industrial</li>
