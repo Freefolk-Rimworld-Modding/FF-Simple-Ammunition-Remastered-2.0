@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LanguageData> <!-- This is included with the VEF, translations should be submited there -->
+<LanguageData> <!-- This is included with the VEF -->
     <Reloading.Unload>Unload {GEAR_labelShort}</Reloading.Unload>
     <Reloading.NoAmmo>No Ammo</Reloading.NoAmmo>
     <Reloading.Ammo>Ammo: {0} / {1}</Reloading.Ammo>

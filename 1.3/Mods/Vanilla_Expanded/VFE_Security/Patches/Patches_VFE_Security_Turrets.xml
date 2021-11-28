@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
+<!-- See Languages folder for text replacement, this was done for ease of translators -->
+
 <!-- Ballista -->
 
   <Operation Class="PatchOperationReplace">
@@ -29,34 +31,6 @@
 <!-- Military Turret -->
 
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_MilitaryTurret"]/description</xpath>
-    <value>
-      <description>A military-grade double barreled automatic turret. Requires industrial ammo to reload. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_MilitaryTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
-    <value>
-      <fuelLabel>Shots until out of ammo</fuelLabel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_MilitaryTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
-    <value>
-      <fuelGizmoLabel>Ammo</fuelGizmoLabel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_MilitaryTurret"]/comps/li[@Class="CompProperties_Refuelable"]/outOfFuelMessage</xpath>
-    <value>
-      <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFES_Turret_MilitaryTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
     <value>
       <thingDefs>
@@ -82,27 +56,6 @@
 <!-- Sentry Turret -->
 
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_SentryGun"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
-    <value>
-      <fuelLabel>Shots until out of ammo</fuelLabel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_SentryGun"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
-    <value>
-      <fuelGizmoLabel>Ammo</fuelGizmoLabel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_SentryGun"]/comps/li[@Class="CompProperties_Refuelable"]/outOfFuelMessage</xpath>
-    <value>
-      <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFES_Turret_SentryGun"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
     <value>
       <thingDefs>
@@ -125,44 +78,7 @@
     </value>
   </Operation>
 
-<!-- Floor Turret -->
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_FloorTurret"]/description</xpath>
-    <value>
-      <description>A submersible military-grade double barreled automatic turret which acts as a normal floor tile when unpowered. It only takes half as much damage when submerged. Requires industrial ammo to reload. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
-    </value>
-  </Operation>
-
 <!-- Double Autocannon Turret -->
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_AutocannonDouble"]/description</xpath>
-    <value>
-      <description>A heavy automatic turret enhanced with 2 barrels. Its large-caliber shells do heavy damage over significant ranges, but it must be rearmed after use. It cannot fire at close-up targets, and may explode when damaged.</description>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_AutocannonDouble"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
-    <value>
-      <fuelLabel>Shots until out of ammo</fuelLabel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_AutocannonDouble"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
-    <value>
-      <fuelGizmoLabel>Ammo</fuelGizmoLabel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_AutocannonDouble"]/comps/li[@Class="CompProperties_Refuelable"]/outOfFuelMessage</xpath>
-    <value>
-      <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
-    </value>
-  </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFES_Turret_AutocannonDouble"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
@@ -188,34 +104,6 @@
   </Operation>
 
 <!-- Charge Turret -->
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_ChargeTurret"]/description</xpath>
-    <value>
-      <description>An automatic turret with a charge pulser gun on top, utilising advanced sensors which offer improved accuracy. Requires charged shot ammo to reload. May explode when damaged.</description>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_ChargeTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
-    <value>
-      <fuelLabel>Shots until out of ammo</fuelLabel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_ChargeTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
-    <value>
-      <fuelGizmoLabel>Ammo</fuelGizmoLabel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_ChargeTurret"]/comps/li[@Class="CompProperties_Refuelable"]/outOfFuelMessage</xpath>
-    <value>
-      <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
-    </value>
-  </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFES_Turret_ChargeTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>

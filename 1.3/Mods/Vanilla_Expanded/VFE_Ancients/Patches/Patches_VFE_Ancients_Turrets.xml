@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
+<!-- See Languages folder for text replacement, this was done for ease of translators -->
+
 <!-- Ancient security turret -->
 
-  <!-- Fuel Label -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName = "VFEA_Turret_AncientSecurityTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
-    <value>
-      <fuelLabel>Shots until out of ammo</fuelLabel>
-    </value>
-  </Operation>
-
-  <!-- Fuel Gizmo Label -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName = "VFEA_Turret_AncientSecurityTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
-    <value>
-      <fuelGizmoLabel>Ammo</fuelGizmoLabel>
-    </value>
-  </Operation>
-
-  <!-- Out of fuel Message -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName = "VFEA_Turret_AncientSecurityTurret"]/comps/li[@Class="CompProperties_Refuelable"]/outOfFuelMessage</xpath>
-    <value>
-      <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
-    </value>
-  </Operation>
-
-	<!-- Ammo Type -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEA_Turret_AncientSecurityTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs/li</xpath>
     <value>
@@ -46,31 +23,6 @@
 
 <!-- Ancient Point Defense Turret -->
 
-  <!-- Fuel Label -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName = "VFEA_Turret_AncientPointDefense"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
-    <value>
-      <fuelLabel>Shots until out of ammo</fuelLabel>
-    </value>
-  </Operation>
-
-  <!-- Fuel Gizmo Label -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName = "VFEA_Turret_AncientPointDefense"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
-    <value>
-      <fuelGizmoLabel>Ammo</fuelGizmoLabel>
-    </value>
-  </Operation>
-
-  <!-- Out of fuel Message -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName = "VFEA_Turret_AncientPointDefense"]/comps/li[@Class="CompProperties_Refuelable"]/outOfFuelMessage</xpath>
-    <value>
-      <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
-    </value>
-  </Operation>
-
-	<!-- Ammo Type -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEA_Turret_AncientPointDefense"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs/li</xpath>
     <value>

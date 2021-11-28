@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
+<!-- See Languages folder for text replacement, this was done for ease of translators -->
+
 <!-- HMG Complex -->
 
   <Operation Class="PatchOperationReplace">
@@ -8,7 +10,7 @@
     <value>
       <thingDefs>
 	    <li>FF_Ammunition_Industrial</li>
-	  </thingDefs>
+      </thingDefs>
     </value>
   </Operation>
 
@@ -22,39 +24,11 @@
 <!-- Charge Complex -->
 
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_ChargeComplex"]/description</xpath>
-    <value>
-      <description>A stationary charge cannon mounted on a metal barrier. Capable of sustaining fire until it needs rearmed.</description>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_ChargeComplex"]/comps/li[@Class="CompProperties_Refuelable"]/fuelLabel</xpath>
-    <value>
-      <fuelLabel>Shots until out of ammo</fuelLabel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_ChargeComplex"]/comps/li[@Class="CompProperties_Refuelable"]/fuelGizmoLabel</xpath>
-    <value>
-      <fuelGizmoLabel>Ammo</fuelGizmoLabel>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFES_Turret_ChargeComplex"]/comps/li[@Class="CompProperties_Refuelable"]/outOfFuelMessage</xpath>
-    <value>
-      <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFES_Turret_ChargeComplex"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
     <value>
       <thingDefs>
 	    <li>FF_Ammunition_Spacer</li>
-	  </thingDefs>
+      </thingDefs>
     </value>
   </Operation>
 
