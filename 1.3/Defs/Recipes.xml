@@ -55,6 +55,7 @@
             <li MayRequire="Argon.VMEu">VMEu_Lead</li>
             <li MayRequire="Mlie.CuprosAlloys">CAL_Lead</li>
             <li MayRequire="test.TMaterials.Metals.1.0">carnap_lead</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">Lead</li>
           </thingDefs>
         </filter>
         <count>20</count>
@@ -77,6 +78,7 @@
         <li MayRequire="Argon.VMEu">VMEu_Lead</li>
         <li MayRequire="Mlie.CuprosAlloys">CAL_Lead</li>
         <li MayRequire="test.TMaterials.Metals.1.0">carnap_lead</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">Lead</li>
         <li>Chemfuel</li>
       </thingDefs>
     </fixedIngredientFilter>

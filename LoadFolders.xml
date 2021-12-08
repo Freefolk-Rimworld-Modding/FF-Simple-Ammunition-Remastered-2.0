@@ -118,6 +118,8 @@
 
         <li IfModActive="Rick.FCPBertsArmory">1.3/Mods/FCP/FCP_Berts</li>
 
+        <li IfModActive="Rick.FCPCaptCosmos">1.3/Mods/FCP/FCP_CaptCosmos</li>
+
         <li IfModActive="Rick.FCPCoA">1.3/Mods/FCP/FCP_ChildrenAtom</li>
 
         <li IfModActive="Rick.FCPCRE">1.3/Mods/FCP/FCP_Chinese</li>
@@ -168,6 +170,8 @@
         <li IfModActive="Rick.FCPUSA">1.3/Mods/FCP/FCP_R91</li>
 
         <li IfModActive="Twink.Vaultfurniture">1.3/Mods/FCP/Vaultfurniture</li>
+
+        <li IfModActive="Rick.HBulgariaUniforms">1.3/Mods/FCP/HBulgariaUniforms</li>
 
       <!-- Kitsune -->
 
@@ -376,6 +380,8 @@
 
         <li IfModActive="Mlie.Westerado">1.3/Mods/OneOff/Westerado</li>
         <li IfModActive="Mlie.Westerado">1.3/Ammo/Ammo_Preindustial</li>
+
+        <li IfModActive="Sai670.XR20BurstRifle">1.3/Mods/OneOff/XR20BurstRifle</li>
 
       <!-- Secret Support, shhh -->
 
