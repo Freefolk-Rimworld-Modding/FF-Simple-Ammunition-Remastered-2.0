@@ -375,6 +375,8 @@
 
         <li IfModActive="AKRI.StarcraftersArmory">1.3/Mods/OneOff/Star_Crafters_Armory</li>
 
+        <li IfModActive="xrushha.SuperbProsthetics">1.3/Mods/OneOff/SuperbProsthetics</li>
+
         <li IfModActive="Support.shotguns">1.3/Mods/OneOff/Support_Shotguns</li>
 
         <li IfModActive="Mlie.Westerado">1.3/Mods/OneOff/Westerado</li>
