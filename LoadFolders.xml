@@ -193,6 +193,8 @@
 
       <!-- Star Wars -->
 
+        <li IfModActive="JangoDsoul.StarWars.BTI">1.3/Mods/Star_Wars/BlasTech</li>
+
         <li IfModActive="Mlie.StarWarsFactions">1.3/Mods/Star_Wars/Factions</li>
 
       <!-- Races -->
