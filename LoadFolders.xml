@@ -25,6 +25,8 @@
         <li IfModActive="OskarPotocki.VanillaFactionsExpanded.MedievalModule">1.3/Mods/Vanilla_Expanded/VFE_Medieval</li>
         <li IfModActive="OskarPotocki.VanillaFactionsExpanded.MedievalModule">1.3/Ammo/Ammo_Preindustial</li>
 
+        <li IfModActive="OskarPotocki.VFE.Pirates">1.3/Mods/Vanilla_Expanded/VFE_Pirates</li>
+
         <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">1.3/Mods/Vanilla_Expanded/VFE_Settlers</li>
 
         <li IfModActive="OskarPotocki.VFE.Vikings">1.3/Mods/Vanilla_Expanded/VFE_Vikings</li>
