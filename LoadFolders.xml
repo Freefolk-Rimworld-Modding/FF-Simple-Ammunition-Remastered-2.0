@@ -197,6 +197,8 @@
 
         <li IfModActive="Mlie.StarWarsFactions">1.3/Mods/Star_Wars/Factions</li>
 
+        <li IfModActive="Leongotto.StarWars.FirstOrder">1.3/Mods/Star_Wars/FirstOrder</li>
+
       <!-- Races -->
 
         <li IfModActive="ChJees.Androids">1.3/Mods/Races/Androids</li>
