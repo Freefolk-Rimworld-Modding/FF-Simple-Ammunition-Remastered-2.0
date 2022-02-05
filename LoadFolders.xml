@@ -403,6 +403,9 @@
 
         <li IfModActive="Support.shotguns">1.3/Mods/OneOff/Support_Shotguns</li>
 
+        <li IfModActive="randomcogboi.LaserMod">1.3/Mods/OneOff/VanillaFriendly_LaserGuns</li>
+        <li IfModActive="randomcogboi.LaserMod">1.3/Ammo/Ammo_Ultratech</li>
+
         <li IfModActive="Mlie.Westerado">1.3/Mods/OneOff/Westerado</li>
         <li IfModActive="Mlie.Westerado">1.3/Ammo/Ammo_Preindustial</li>
 
