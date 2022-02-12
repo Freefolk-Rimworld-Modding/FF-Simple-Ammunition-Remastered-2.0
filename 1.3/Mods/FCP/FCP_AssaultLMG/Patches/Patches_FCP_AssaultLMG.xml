@@ -75,7 +75,7 @@
             </thingDefs>
           </AmmoFilter>
           <ItemsPerShot>1</ItemsPerShot>
-          <ReloadTimePerShot>0.04</ReloadTimePerShot>
+          <ReloadTimePerShot>0.05</ReloadTimePerShot>
           <ReloadSound>Standard_Reload</ReloadSound>
           <GenerateAmmo>
             <FF_Ammunition_Industrial>40~60</FF_Ammunition_Industrial>
