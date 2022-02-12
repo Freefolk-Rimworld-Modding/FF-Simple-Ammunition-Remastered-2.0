@@ -29,7 +29,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>30~50</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>30~50</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -78,7 +78,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>30~50</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>30~50</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -127,7 +127,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>30~50</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>30~50</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -178,7 +178,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.07</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>30~45</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>30~45</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -227,7 +227,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.07</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>30~45</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>30~45</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -276,7 +276,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.04</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>48~72</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>48~72</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -325,7 +325,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.04</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>48~72</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>48~72</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -374,7 +374,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.01</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>100~200</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>100~200</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -423,7 +423,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.07</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>30~45</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>30~45</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -472,7 +472,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>36~48</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>36~48</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -523,7 +523,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.05</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>60~80</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>60~80</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -572,7 +572,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.04</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>48~72</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>48~72</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -621,7 +621,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>36~48</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>36~48</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -670,7 +670,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.03</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>60~90</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>60~90</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -721,7 +721,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>30~50</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>30~50</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -770,7 +770,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.01</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>100~200</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>100~200</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -819,7 +819,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.03</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>60~90</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>60~90</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -870,7 +870,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>30~50</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>30~50</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -919,7 +919,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>30~50</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>30~50</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
@@ -968,7 +968,7 @@
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.03</ReloadTimePerShot>
           <GenerateAmmo>
-            <FF_Ammunition_Primitive>60~90</FF_Ammunition_Primitive>
+            <FF_Ammunition_Spacer>60~90</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>

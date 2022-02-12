@@ -177,6 +177,17 @@
 
         <li IfModActive="Rick.HBulgariaUniforms">1.3/Mods/FCP/HBulgariaUniforms</li>
 
+      <!-- JangoD'soul -->
+
+        <li IfModActive="JangoDsoul.TheForge.CaesarLegionArmory">1.3/Mods/JangoDsoul/CaesarLegionArmory</li>
+
+        <li IfModActive="Harkon.DF.Dusk">1.3/Mods/JangoDsoul/DuskArmory</li>
+
+        <li IfModActive="JangoDsoul.ExiledDawn,JangoDsoul.ExiledDawn.Armory">1.3/Mods/JangoDsoul/ExiledDawn</li>
+        <li IfModActive="JangoDsoul.ExiledDawn,JangoDsoul.ExiledDawn.Armory">1.3/Ammo/Ammo_Ultratech</li>
+
+        <li IfModActive="JangoDsoul.StarWars.BTI">1.3/Mods/JangoDsoul/BlasTech</li>
+
       <!-- Kitsune -->
 
         <li IfModActive="KIT.GunpowderWeapons">1.3/Mods/Kitsune/Kit_Gunpowder</li>
@@ -194,8 +205,6 @@
         <li IfModActive="Torann.ARimworldOfMagic">1.3/Mods/RW_of_Magic/Core</li>
 
       <!-- Star Wars -->
-
-        <li IfModActive="JangoDsoul.StarWars.BTI">1.3/Mods/Star_Wars/BlasTech</li>
 
         <li IfModActive="Mlie.StarWarsFactions">1.3/Mods/Star_Wars/Factions</li>
 
@@ -358,9 +367,6 @@
 
       <!-- Factions -->
 
-        <li IfModActive="JangoDsoul.ExiledDawn,JangoDsoul.ExiledDawn.Armory">1.3/Mods/Factions/ExiledDawn</li>
-        <li IfModActive="JangoDsoul.ExiledDawn,JangoDsoul.ExiledDawn.Armory">1.3/Ammo/Ammo_Ultratech</li>
-
         <li IfModActive="Qux.factionmafia">1.3/Mods/Factions/Faction_Mafia</li>
 
         <li IfModActive="Vanya.Polarisbloc.SecurityForce">1.3/Mods/Factions/PolarisBloc_Security</li>
@@ -383,8 +389,6 @@
 
         <li IfModActive="SuspiciousAfricanAmerican.Crossbows">1.3/Mods/OneOff/SAA_Crossbows</li>
         <li IfModActive="SuspiciousAfricanAmerican.Crossbows">1.3/Ammo/Ammo_Preindustial</li>
-
-        <li IfModActive="Harkon.DF.Dusk">1.3/Mods/OneOff/DuskArmory</li>
 
         <li IfModActive="polarbits.FlamingBows">1.3/Mods/OneOff/Flaming_Bows</li>
 
