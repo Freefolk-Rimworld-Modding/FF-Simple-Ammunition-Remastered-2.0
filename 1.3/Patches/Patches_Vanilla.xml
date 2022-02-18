@@ -907,6 +907,126 @@
       </li>
     </value>
   </Operation>
+  
+<!-- Doomsday Rocket Launcher -->
+<!-- Disables itself if Reloadable Rockets by legodude17 is found -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="RR_RocketAmmo]</xpath>
+	<nomatch Class="PatchOperationSequence">
+	  <operations>
+	  
+  <li Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Gun_DoomsdayRocket"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_DoomsdayRocket"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_DoomsdayRocket"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>1</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>Shell_AntigrainWarhead</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>5</ReloadTimePerShot>
+		  <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <Shell_AntigrainWarhead>1~2</Shell_AntigrainWarhead>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Gun_DoomsdayRocket"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </li>
+
+	  </operations>
+	</nomatch>
+  </Operation>
+
+<!-- Triple Rocket Launcher -->
+<!-- Disables itself if Reloadable Rockets by legodude17 is found -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="RR_RocketAmmo]</xpath>
+	<nomatch Class="PatchOperationSequence">
+	  <operations>
+	  
+  <li Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Gun_TripleRocket"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_TripleRocket"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_TripleRocket"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>3</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>Shell_HighExplosive</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>2</ReloadTimePerShot>
+		  <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <Shell_HighExplosive>3~6</Shell_HighExplosive>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Gun_TripleRocket"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </li>
+
+	  </operations>
+	</nomatch>
+  </Operation>
 
 <!-- Charge Rifle -->
 
