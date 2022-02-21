@@ -1398,12 +1398,12 @@
 
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="RR_RocketAmmo]</xpath>
+	<success>Always</success>
 	<nomatch Class="PatchOperationSequence">
 	  <operations>
 	  
   <li Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]/comps</xpath>
-	<success>Always</success>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]</xpath>
       <value>
