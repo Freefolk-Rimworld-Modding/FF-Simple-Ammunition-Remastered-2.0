@@ -913,6 +913,7 @@
 
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="RR_RocketAmmo]</xpath>
+	<success>Always</success>
 	<nomatch Class="PatchOperationSequence">
 	  <operations>
 	  
@@ -943,6 +944,7 @@
           <GenerateAmmo>
             <Shell_AntigrainWarhead>1~2</Shell_AntigrainWarhead>
           </GenerateAmmo>
+		  <NewVerbClass>Verb_Shoot</NewVerbClass>
         </li>
     </value>
   </li>
@@ -955,10 +957,10 @@
           <li>FF_Ammo_Type</li>	
         </statToAdd>
         <statValues>
-          <li>FF_Industrial_Ammo</li>
+          <li>FF_Antigrain_Ammo</li>
         </statValues>
         <statDescriptions>
-          <li>FF_Industrial_Desc</li>
+          <li>FF_Antigrain_Desc</li>
         </statDescriptions>
       </li>
     </value>
@@ -978,6 +980,7 @@
 	  
   <li Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="Gun_TripleRocket"]/comps</xpath>
+	<success>Always</success>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Gun_TripleRocket"]</xpath>
       <value>
@@ -1003,6 +1006,7 @@
           <GenerateAmmo>
             <Shell_HighExplosive>3~6</Shell_HighExplosive>
           </GenerateAmmo>
+		  <NewVerbClass>Verb_Shoot</NewVerbClass>
         </li>
     </value>
   </li>
@@ -1015,10 +1019,10 @@
           <li>FF_Ammo_Type</li>	
         </statToAdd>
         <statValues>
-          <li>FF_Industrial_Ammo</li>
+          <li>FF_Shell_Ammo</li>
         </statValues>
         <statDescriptions>
-          <li>FF_Industrial_Desc</li>
+          <li>FF_Shell_Desc</li>
         </statDescriptions>
       </li>
     </value>

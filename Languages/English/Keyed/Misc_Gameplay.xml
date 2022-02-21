@@ -32,7 +32,10 @@
 	<FF_Ultratech_Ammo>Ultratech Ammunition</FF_Ultratech_Ammo>
 	<FF_Ultratech_Desc>This weapon fires hex cell ammunition.</FF_Ultratech_Desc>
 
-	<FF_Archotech_Ammo>Archotech Ammunition</FF_Archotech_Ammo>
-	<FF_Archotech_Desc>This weapon fires archotech ammunition.</FF_Archotech_Desc>
+	<FF_Shell_Ammo>Mortar Shell</FF_Shell_Ammo>
+	<FF_Shell_Desc>This weapon fires mortar shells.</FF_Shell_Desc>
+
+	<FF_Antigrain_Ammo>Antigrain Warhead</FF_Antigrain_Ammo>
+	<FF_Antigrain_Desc>This weapon fires antigrain warheads.</FF_Antigrain_Desc>
 
 </LanguageData>
