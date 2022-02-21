@@ -59,6 +59,7 @@
             <li MayRequire="Mlie.CuprosAlloys">CAL_Lead</li>
             <li MayRequire="test.TMaterials.Metals.1.0">carnap_lead</li>
             <li MayRequire="LadyCookie.AestheticMaterials">Lead</li>
+            <li MayRequire="Wolf478.Wolfhaulcore.Metals">WDM_Lead</li>
           </thingDefs>
         </filter>
         <count>20</count>
@@ -83,6 +84,7 @@
         <li MayRequire="Mlie.CuprosAlloys">CAL_Lead</li>
         <li MayRequire="test.TMaterials.Metals.1.0">carnap_lead</li>
         <li MayRequire="LadyCookie.AestheticMaterials">Lead</li>
+        <li MayRequire="Wolf478.Wolfhaulcore.Metals">WDM_Lead</li>
         <li>Chemfuel</li>
       </thingDefs>
     </fixedIngredientFilter>
