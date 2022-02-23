@@ -1397,7 +1397,7 @@
 <!-- Disables itself if Reloadable Rockets by legodude17 is found -->
 
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="RR_RocketAmmo]</xpath>
+    <xpath>Defs/ThingDef[defName="RR_RocketAmmo"]</xpath>
 	<success>Always</success>
 	<nomatch Class="PatchOperationSequence">
 	  <operations>
