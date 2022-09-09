@@ -13,6 +13,7 @@
     <workSkill>Crafting</workSkill>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Workbench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -20,6 +21,18 @@
           <thingDefs>
             <li>WoodLog</li>
             <li MayRequire="sihv.rombones">BoneItem</li>
+            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DarkWoodLog</li>
+            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_ElvenWoodLog</li>
+            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DryadWoodLog</li>
+            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_AncientWoodLog</li>
+            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Bone</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">RedWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">HighWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">DarkWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">EbonyWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">MahoganyWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">CactusWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">BambooWood</li>
           </thingDefs>
         </filter>
         <count>20</count>
@@ -32,6 +45,18 @@
       <thingDefs>
         <li>WoodLog</li>
         <li MayRequire="sihv.rombones">BoneItem</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DarkWoodLog</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_ElvenWoodLog</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DryadWoodLog</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_AncientWoodLog</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Bone</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">RedWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">HighWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">DarkWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">EbonyWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">MahoganyWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">CactusWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">BambooWood</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>

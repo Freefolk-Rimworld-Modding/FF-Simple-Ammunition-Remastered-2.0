@@ -14,12 +14,26 @@
     <recipeUsers>
       <li>FueledSmithy</li>
       <li>ElectricSmithy</li>
+      <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Workbench</li>
     </recipeUsers>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
             <li>WoodLog</li>
+            <li MayRequire="sihv.rombones">BoneItem</li>
+            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DarkWoodLog</li>
+            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_ElvenWoodLog</li>
+            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DryadWoodLog</li>
+            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_AncientWoodLog</li>
+            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Bone</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">RedWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">HighWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">DarkWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">EbonyWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">MahoganyWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">CactusWood</li>
+            <li MayRequire="LadyCookie.AestheticMaterials">BambooWood</li>
           </thingDefs>
         </filter>
         <count>10</count>
@@ -28,6 +42,13 @@
         <filter>
           <thingDefs>
             <li>Steel</li>
+            <li MayRequire="Argon.VMEu">VMEu_Iron</li>
+            <li MayRequire="Argon.LVMEu">VMEu_Iron</li>
+            <li MayRequire="Owlchemist.SimpleChains.Steel">Owl_Iron</li>
+            <li MayRequire="test.TMaterials.Metals.1.0">carnap_iron</li>
+            <li MayRequire="Wolf478.Wolfhaulcore.Metals">WDM_Iron</li>
+            <li MayRequire="Mlie.VanillaIronandSteel">NECIron</li>
+            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_IronIngot</li>
           </thingDefs>
         </filter>
         <count>20</count>
@@ -39,7 +60,27 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>WoodLog</li>
+        <li MayRequire="sihv.rombones">BoneItem</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DarkWoodLog</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_ElvenWoodLog</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DryadWoodLog</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_AncientWoodLog</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Bone</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">RedWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">HighWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">DarkWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">EbonyWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">MahoganyWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">CactusWood</li>
+        <li MayRequire="LadyCookie.AestheticMaterials">BambooWood</li>
         <li>Steel</li>
+        <li MayRequire="Argon.VMEu">VMEu_Iron</li>
+        <li MayRequire="Argon.LVMEu">VMEu_Iron</li>
+        <li MayRequire="Owlchemist.SimpleChains.Steel">Owl_Iron</li>
+        <li MayRequire="test.TMaterials.Metals.1.0">carnap_iron</li>
+        <li MayRequire="Wolf478.Wolfhaulcore.Metals">WDM_Iron</li>
+        <li MayRequire="Mlie.VanillaIronandSteel">NECIron</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_IronIngot</li>
       </thingDefs>
     </fixedIngredientFilter>
     <skillRequirements>
