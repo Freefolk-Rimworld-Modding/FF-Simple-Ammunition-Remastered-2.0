@@ -204,6 +204,16 @@
 
         <li IfModActive="KIT.XRWeapons">1.3/Mods/Kitsune/Kit_XRTech</li>
 
+      <!-- Antyczarnoksiężnik -->
+
+        <li IfModActive="Antyczarnoksienznik.Berthie">1.3/Mods/Antyczarnoksiężnik/Ant_Berthie</li>
+
+        <li IfModActive="Antyczarnoksienznik.FA">1.3/Mods/Antyczarnoksiężnik/Ant_FA</li>
+
+        <li IfModActive="Antyczarnoksienznik.G41">1.3/Mods/Antyczarnoksiężnik/Ant_G41</li>
+
+        <li IfModActive="Antyczarnoksienznik.SKS">1.3/Mods/Antyczarnoksiężnik/Ant_SKS</li>
+
       <!-- A Rimworld of Magic -->
 
         <li IfModActive="Torann.ARimworldOfMagic">1.3/Mods/RW_of_Magic/Core</li>
@@ -290,6 +300,8 @@
 
         <li IfModActive="salmontoastie.lizardfolk,salmontoastie.lizardfolk_copy">1.3/Mods/Races/Lizardfolk_FR</li>
 
+        <li IfModActive="DakkPasserida.Lucario">1.3/Mods/Races/Lucario</li>
+
         <li IfModActive="goudaquiche.LtfMantisRace">1.3/Mods/Races/Mantis</li>
 
         <li IfModActive="Sig.MantodeanRace">1.3/Mods/Races/Mantodean</li>
@@ -322,6 +334,8 @@
 
         <li IfModActive="dianawinters.Orassans">1.3/Mods/Races/Orassans</li>
         <li IfModActive="dianawinters.Orassans">1.3/Ammo/Ammo_Ultratech</li>
+
+        <li IfModActive="zal.playableorcs">1.3/Mods/Races/OrcsPlayable</li>
 
         <li IfModActive="shauaputa.pawnboldrace">1.3/Mods/Races/Pawnbold</li>
 
@@ -404,10 +418,14 @@
 
         <li IfModActive="Tyrannical_Elmo.IndustrialMelee">1.3/Mods/OneOff/IndustrialMelee</li>
 
+        <li IfModActive="zhrocks11.letstrade">1.3/Mods/OneOff/LetsTrade</li>
+
         <li IfModActive="DankPyon.Medieval.Overhaul">1.3/Mods/OneOff/Medieval_Overhaul</li>
         <li IfModActive="DankPyon.Medieval.Overhaul">1.3/Ammo/Ammo_Preindustial</li>
 
         <li IfModActive="LimeTreeSnake.Military">1.3/Mods/OneOff/LTS_Military</li>
+
+        <li IfModActive="huhu.lions.PS2NSweapons.endeavor">1.3/Mods/OneOff/PS2NSweapons_endeavor</li>
 
         <li IfModActive="Australden.potato.cannon">1.3/Mods/OneOff/Potato_Cannon</li>
 
