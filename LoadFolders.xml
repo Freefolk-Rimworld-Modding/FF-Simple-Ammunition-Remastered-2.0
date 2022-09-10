@@ -179,6 +179,14 @@
 
         <li IfModActive="Rick.HBulgariaUniforms">1.3/Mods/FCP/HBulgariaUniforms</li>
 
+      <!-- PlanetSide -->
+
+        <li IfModActive="huhu.lions.PAweapons">1.3/Mods/PlanetSide/PAweapons</li>
+
+        <li IfModActive="huhu.lions.PS2NSweapons.endeavor">1.3/Mods/PlanetSide/PS2NSweapons_endeavor</li>
+
+        <li IfModActive="huhu.lions.PS2NSXweapons">1.3/Mods/PlanetSide/PS2NSXweapons</li>
+
       <!-- Vanilla XCOM -->
 
         <li IfModActive="flangopink.VanillaXCOMWeapons">1.3/Mods/VanillaXCOM/VanillaXCOMWeapons</li>
@@ -437,8 +445,6 @@
         <li IfModActive="DankPyon.Medieval.Overhaul">1.3/Ammo/Ammo_Preindustial</li>
 
         <li IfModActive="LimeTreeSnake.Military">1.3/Mods/OneOff/LTS_Military</li>
-
-        <li IfModActive="huhu.lions.PS2NSweapons.endeavor">1.3/Mods/OneOff/PS2NSweapons_endeavor</li>
 
         <li IfModActive="Australden.potato.cannon">1.3/Mods/OneOff/Potato_Cannon</li>
 
