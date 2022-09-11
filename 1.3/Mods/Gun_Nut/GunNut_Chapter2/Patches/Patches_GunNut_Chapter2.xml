@@ -513,25 +513,53 @@
     </nomatch>
   </Operation>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="HRK_KSTwentyThree"]/comps</xpath>
-    <value>
-      <li Class="Reloading.CompProperties_Reloadable">
-        <compClass>Reloading.CompReloadable</compClass>
-        <MaxShots>4</MaxShots> <!-- burstShotCount 1 -->
-        <AmmoFilter>
-          <thingDefs> <!-- 23x75mmR -->
-            <li>FF_Ammunition_Industrial</li>
-          </thingDefs>
-        </AmmoFilter>
-        <ItemsPerShot>5</ItemsPerShot>
-        <ReloadTimePerShot>0.25</ReloadTimePerShot>
-		<ReloadSound>Standard_Reload</ReloadSound>
-          <GenerateAmmo>
-            <FF_Ammunition_Industrial>40~60</FF_Ammunition_Industrial>
-          </GenerateAmmo>
-      </li>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[XND] Proper Shotguns (Continued)</li>
+    </mods>
+
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="HRK_KSTwentyThree"]/comps</xpath>
+      <value>
+          <li Class="Reloading.CompProperties_Reloadable">
+            <compClass>Reloading.CompReloadable</compClass>
+            <MaxShots>24</MaxShots> <!-- pelletCount 6 -->
+            <AmmoFilter>
+              <thingDefs>
+                <li>FF_Ammunition_Industrial</li>
+              </thingDefs>
+            </AmmoFilter>
+            <ItemsPerShot>1</ItemsPerShot>
+            <ReloadTimePerShot>0.04</ReloadTimePerShot>
+            <ReloadSound>Standard_Reload</ReloadSound>
+            <GenerateAmmo>
+              <FF_Ammunition_Industrial>48~72</FF_Ammunition_Industrial>
+            </GenerateAmmo>
+          </li>
+      </value>
+    </match>
+
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="HRK_KSTwentyThree"]/comps</xpath>
+      <value>
+          <li Class="Reloading.CompProperties_Reloadable">
+            <compClass>Reloading.CompReloadable</compClass>
+            <MaxShots>4</MaxShots> <!-- burstShotCount 1 -->
+            <AmmoFilter>
+              <thingDefs> <!-- 23x75mmR -->
+                <li>FF_Ammunition_Industrial</li>
+              </thingDefs>
+            </AmmoFilter>
+            <ItemsPerShot>5</ItemsPerShot>
+            <ReloadTimePerShot>0.25</ReloadTimePerShot>
+            <ReloadSound>Standard_Reload</ReloadSound>
+            <GenerateAmmo>
+              <FF_Ammunition_Industrial>40~60</FF_Ammunition_Industrial>
+            </GenerateAmmo>
+          </li>
+      </value>
+    </nomatch>
+
   </Operation>
 
   <Operation Class="PatchOperationAddModExtension">

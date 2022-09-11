@@ -185,6 +185,8 @@
  
         <li IfModActive="Harkon.GunNut.Chapter2">1.3/Mods/Gun_Nut/GunNut_Chapter2</li>
  
+        <li IfModActive="Harkon.GunNut.Community">1.3/Mods/Gun_Nut/GunNut_Community</li>
+ 
         <li IfModActive="Harkon.GunNut.AACHoneyBadger">1.3/Mods/Gun_Nut/GunNut_AACHoneyBadger</li>
  
         <li IfModActive="Harkon.GunNut.ColtAnaconda">1.3/Mods/Gun_Nut/GunNut_ColtAnaconda</li>
@@ -197,6 +199,10 @@
  
         <li IfModActive="Harkon.GunNut.KRISSVector">1.3/Mods/Gun_Nut/GunNut_KRISSVector</li>
  
+        <li IfModActive="Harkon.GunNut.KSGShotgun">1.3/Mods/Gun_Nut/GunNut_KSGShotgun</li>
+ 
+        <li IfModActive="Harkon.GunNut.M97TrenchGun">1.3/Mods/Gun_Nut/GunNut_M97TrenchGun</li>
+ 
         <li IfModActive="Harkon.GunNut.RugerMini">1.3/Mods/Gun_Nut/GunNut_RugerMini</li>
  
         <li IfModActive="Harkon.GunNut.SIGSauerNGSW">1.3/Mods/Gun_Nut/GunNut_SIGSauerNGSW</li>
@@ -204,6 +210,8 @@
         <li IfModActive="Harkon.GunNut.SovietSMGs">1.3/Mods/Gun_Nut/GunNut_SovietSMGs</li>
  
         <li IfModActive="Harkon.Other.BarretMRADGeisseleURGI">1.3/Mods/Gun_Nut/GunNut_BarretMRADGeisseleURGI</li>
+
+        <li IfModActive="Harkon.Other.FrenchWW1Pack">1.3/Mods/Gun_Nut/GunNut_FrenchWW1Pack</li>
 
         <li IfModActive="Harkon.Other.GarandWinchesterColt">1.3/Mods/Gun_Nut/GunNut_GarandWinchesterColt</li>
         <li IfModActive="Harkon.Other.GarandWinchesterColt">1.3/Ammo/Ammo_Preindustial</li>

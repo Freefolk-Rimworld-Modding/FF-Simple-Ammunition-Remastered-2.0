@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-<!-- AK-103 -->
+<!-- KAC M110 -->
 
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="HRK_AKOneOThree"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_SRTwentyFive"]/comps</xpath>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_AKOneOThree"]</xpath>
+      <xpath>Defs/ThingDef[defName="HRK_SRTwentyFive"]</xpath>
       <value>
         <comps />
       </value>
@@ -14,13 +14,113 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="HRK_AKOneOThree"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_SRTwentyFive"]/comps</xpath>
     <value>
       <li Class="Reloading.CompProperties_Reloadable">
         <compClass>Reloading.CompReloadable</compClass>
-        <MaxShots>30</MaxShots> <!-- burstShotCount 5 -->
+        <MaxShots>20</MaxShots> <!-- burstShotCount 1 -->
         <AmmoFilter>
-          <thingDefs> <!-- 762x39mmSoviet -->
+          <thingDefs> <!-- 762x51mm NATO -->
+            <li>FF_Ammunition_Industrial</li>
+          </thingDefs>
+        </AmmoFilter>
+        <ItemsPerShot>1</ItemsPerShot>
+        <ReloadTimePerShot>0.15</ReloadTimePerShot>
+		<ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>40~60</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="HRK_SRTwentyFive"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- Galil ACE -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="HRK_GalilACE"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="HRK_GalilACE"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="HRK_GalilACE"]/comps</xpath>
+    <value>
+      <li Class="Reloading.CompProperties_Reloadable">
+        <compClass>Reloading.CompReloadable</compClass>
+        <MaxShots>25</MaxShots> <!-- burstShotCount 3 -->
+        <AmmoFilter>
+          <thingDefs> <!-- 762x51mm NATO -->
+            <li>FF_Ammunition_Industrial</li>
+          </thingDefs>
+        </AmmoFilter>
+        <ItemsPerShot>1</ItemsPerShot>
+        <ReloadTimePerShot>0.16</ReloadTimePerShot>
+		<ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>50~75</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="HRK_GalilACE"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- StG 44 -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="HRK_StGFortyFour"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="HRK_StGFortyFour"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="HRK_StGFortyFour"]/comps</xpath>
+    <value>
+      <li Class="Reloading.CompProperties_Reloadable">
+        <compClass>Reloading.CompReloadable</compClass>
+        <MaxShots>30</MaxShots> <!-- burstShotCount 4 -->
+        <AmmoFilter>
+          <thingDefs> <!-- 792x33mm Kurz -->
             <li>FF_Ammunition_Industrial</li>
           </thingDefs>
         </AmmoFilter>
@@ -35,7 +135,7 @@
   </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="HRK_AKOneOThree"]</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_StGFortyFour"]</xpath>
     <value>
       <li Class="AnimalBehaviours.AnimalStatExtension">
         <statToAdd>
@@ -51,12 +151,12 @@
     </value>
   </Operation>
 
-<!-- SA-58 -->
+<!-- MG3 -->
 
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="HRK_SAFiftyEight"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_MGThree"]/comps</xpath>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_SAFiftyEight"]</xpath>
+      <xpath>Defs/ThingDef[defName="HRK_MGThree"]</xpath>
       <value>
         <comps />
       </value>
@@ -64,11 +164,11 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="HRK_SAFiftyEight"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_MGThree"]/comps</xpath>
     <value>
       <li Class="Reloading.CompProperties_Reloadable">
         <compClass>Reloading.CompReloadable</compClass>
-        <MaxShots>40</MaxShots> <!-- burstShotCount 4 -->
+        <MaxShots>75</MaxShots> <!-- burstShotCount 10 -->
         <AmmoFilter>
           <thingDefs> <!-- 762x51mm NATO -->
             <li>FF_Ammunition_Industrial</li>
@@ -78,14 +178,14 @@
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
 		<ReloadSound>Standard_Reload</ReloadSound>
           <GenerateAmmo>
-            <FF_Ammunition_Industrial>80~120</FF_Ammunition_Industrial>
+            <FF_Ammunition_Industrial>150~225</FF_Ammunition_Industrial>
           </GenerateAmmo>
       </li>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="HRK_SAFiftyEight"]</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_MGThree"]</xpath>
     <value>
       <li Class="AnimalBehaviours.AnimalStatExtension">
         <statToAdd>
@@ -101,12 +201,12 @@
     </value>
   </Operation>
 
-<!-- R700 -->
+<!-- GlockFLUX -->
 
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="HRK_RSevenHundred"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_GlockFLUX"]/comps</xpath>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_RSevenHundred"]</xpath>
+      <xpath>Defs/ThingDef[defName="HRK_GlockFLUX"]</xpath>
       <value>
         <comps />
       </value>
@@ -114,49 +214,49 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="HRK_RSevenHundred"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_GlockFLUX"]/comps</xpath>
     <value>
       <li Class="Reloading.CompProperties_Reloadable">
         <compClass>Reloading.CompReloadable</compClass>
-        <MaxShots>5</MaxShots> <!-- burstShotCount 1 -->
+        <MaxShots>42</MaxShots> <!-- burstShotCount 4 -->
         <AmmoFilter>
-          <thingDefs> <!-- 300 Winchester Magnum -->
-            <li>FF_Ammunition_Industrial</li>
+          <thingDefs> <!-- 6x18mm Charged -->
+            <li>FF_Ammunition_Spacer</li>
           </thingDefs>
         </AmmoFilter>
         <ItemsPerShot>1</ItemsPerShot>
-        <ReloadTimePerShot>0.8</ReloadTimePerShot>
+        <ReloadTimePerShot>0.1</ReloadTimePerShot>
 		<ReloadSound>Standard_Reload</ReloadSound>
           <GenerateAmmo>
-            <FF_Ammunition_Industrial>25~30</FF_Ammunition_Industrial>
+            <FF_Ammunition_Spacer>84~126</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="HRK_RSevenHundred"]</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_GlockFLUX"]</xpath>
     <value>
       <li Class="AnimalBehaviours.AnimalStatExtension">
         <statToAdd>
           <li>FF_Ammo_Type</li>	
         </statToAdd>
         <statValues>
-          <li>FF_Industrial_Ammo</li>
+          <li>FF_Spacer_Ammo</li>
         </statValues>
         <statDescriptions>
-          <li>FF_Industrial_Desc</li>
+          <li>FF_Spacer_Desc</li>
         </statDescriptions>
       </li>
     </value>
   </Operation>
 
-<!-- M4A1 -->
+<!-- M16A4 -->
 
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="HRK_MFourAOne"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_M16AFour"]/comps</xpath>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_MFourAOne"]</xpath>
+      <xpath>Defs/ThingDef[defName="HRK_M16AFour"]</xpath>
       <value>
         <comps />
       </value>
@@ -164,67 +264,17 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="HRK_MFourAOne"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_M16AFour"]/comps</xpath>
     <value>
       <li Class="Reloading.CompProperties_Reloadable">
         <compClass>Reloading.CompReloadable</compClass>
-        <MaxShots>60</MaxShots> <!-- burstShotCount 4 -->
+        <MaxShots>30</MaxShots> <!-- burstShotCount 3 -->
         <AmmoFilter>
           <thingDefs> <!-- 556x45mm NATO -->
             <li>FF_Ammunition_Industrial</li>
           </thingDefs>
         </AmmoFilter>
         <ItemsPerShot>1</ItemsPerShot>
-        <ReloadTimePerShot>0.0666</ReloadTimePerShot>
-		<ReloadSound>Standard_Reload</ReloadSound>
-          <GenerateAmmo>
-            <FF_Ammunition_Industrial>120~180</FF_Ammunition_Industrial>
-          </GenerateAmmo>
-      </li>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="HRK_MFourAOne"]</xpath>
-    <value>
-      <li Class="AnimalBehaviours.AnimalStatExtension">
-        <statToAdd>
-          <li>FF_Ammo_Type</li>	
-        </statToAdd>
-        <statValues>
-          <li>FF_Industrial_Ammo</li>
-        </statValues>
-        <statDescriptions>
-          <li>FF_Industrial_Desc</li>
-        </statDescriptions>
-      </li>
-    </value>
-  </Operation>
-
-<!-- AK-105 -->
-
-  <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="HRK_AKOneOFive"]/comps</xpath>
-    <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_AKOneOFive"]</xpath>
-      <value>
-        <comps />
-      </value>
-    </nomatch>
-  </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="HRK_AKOneOFive"]/comps</xpath>
-    <value>
-      <li Class="Reloading.CompProperties_Reloadable">
-        <compClass>Reloading.CompReloadable</compClass>
-        <MaxShots>30</MaxShots> <!-- burstShotCount 4 -->
-        <AmmoFilter>
-          <thingDefs> <!-- 545x39mm Soviet -->
-            <li>FF_Ammunition_Industrial</li>
-          </thingDefs>
-        </AmmoFilter>
-        <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.13</ReloadTimePerShot>
 		<ReloadSound>Standard_Reload</ReloadSound>
           <GenerateAmmo>
@@ -235,7 +285,7 @@
   </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="HRK_AKOneOFive"]</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_M16AFour"]</xpath>
     <value>
       <li Class="AnimalBehaviours.AnimalStatExtension">
         <statToAdd>
@@ -251,12 +301,12 @@
     </value>
   </Operation>
 
-<!-- MP7A1 -->
+<!-- M2HB -->
 
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="HRK_MPSevenAOne"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_M2HB"]/comps</xpath>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_MPSevenAOne"]</xpath>
+      <xpath>Defs/ThingDef[defName="HRK_M2HB"]</xpath>
       <value>
         <comps />
       </value>
@@ -264,13 +314,13 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="HRK_MPSevenAOne"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_M2HB"]/comps</xpath>
     <value>
       <li Class="Reloading.CompProperties_Reloadable">
         <compClass>Reloading.CompReloadable</compClass>
-        <MaxShots>40</MaxShots> <!-- burstShotCount 4 -->
+        <MaxShots>90</MaxShots> <!-- burstShotCount 6 -->
         <AmmoFilter>
-          <thingDefs> <!-- 46x30mm -->
+          <thingDefs> <!-- 50 BMG -->
             <li>FF_Ammunition_Industrial</li>
           </thingDefs>
         </AmmoFilter>
@@ -278,14 +328,14 @@
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
 		<ReloadSound>Standard_Reload</ReloadSound>
           <GenerateAmmo>
-            <FF_Ammunition_Industrial>80~120</FF_Ammunition_Industrial>
+            <FF_Ammunition_Industrial>90~180</FF_Ammunition_Industrial>
           </GenerateAmmo>
       </li>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="HRK_MPSevenAOne"]</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_M2HB"]</xpath>
     <value>
       <li Class="AnimalBehaviours.AnimalStatExtension">
         <statToAdd>
@@ -301,12 +351,12 @@
     </value>
   </Operation>
 
-<!-- M1A -->
+<!-- GreyHawk -->
 
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="HRK_MOneA"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_GreyHawk"]/comps</xpath>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_MOneA"]</xpath>
+      <xpath>Defs/ThingDef[defName="HRK_GreyHawk"]</xpath>
       <value>
         <comps />
       </value>
@@ -314,28 +364,28 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="HRK_MOneA"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_GreyHawk"]/comps</xpath>
     <value>
       <li Class="Reloading.CompProperties_Reloadable">
         <compClass>Reloading.CompReloadable</compClass>
-        <MaxShots>30</MaxShots> <!-- burstShotCount 1 -->
+        <MaxShots>6</MaxShots> <!-- burstShotCount 1 -->
         <AmmoFilter>
-          <thingDefs> <!-- 762x51mm NATO -->
+          <thingDefs> <!-- 500 SW Magnum -->
             <li>FF_Ammunition_Industrial</li>
           </thingDefs>
         </AmmoFilter>
         <ItemsPerShot>1</ItemsPerShot>
-        <ReloadTimePerShot>0.13</ReloadTimePerShot>
+        <ReloadTimePerShot>0.5</ReloadTimePerShot>
 		<ReloadSound>Standard_Reload</ReloadSound>
           <GenerateAmmo>
-            <FF_Ammunition_Industrial>60~90</FF_Ammunition_Industrial>
+            <FF_Ammunition_Industrial>24~30</FF_Ammunition_Industrial>
           </GenerateAmmo>
       </li>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="HRK_MOneA"]</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_GreyHawk"]</xpath>
     <value>
       <li Class="AnimalBehaviours.AnimalStatExtension">
         <statToAdd>
@@ -351,12 +401,12 @@
     </value>
   </Operation>
 
-<!-- Saiga 12K -->
+<!-- AA 12 -->
 
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="HRK_SaigaTwelveK"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_AATwelve"]/comps</xpath>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_SaigaTwelveK"]</xpath>
+      <xpath>Defs/ThingDef[defName="HRK_AATwelve"]</xpath>
       <value>
         <comps />
       </value>
@@ -369,42 +419,42 @@
     </mods>
 
     <match Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_SaigaTwelveK"]/comps</xpath>
+      <xpath>Defs/ThingDef[defName="HRK_AATwelve"]/comps</xpath>
       <value>
           <li Class="Reloading.CompProperties_Reloadable">
             <compClass>Reloading.CompReloadable</compClass>
-            <MaxShots>120</MaxShots> <!-- pelletCount 6 --> <!-- burstShotCount 4 -->
+            <MaxShots>192</MaxShots> <!-- pelletCount 6 -->
             <AmmoFilter>
               <thingDefs>
                 <li>FF_Ammunition_Industrial</li>
               </thingDefs>
             </AmmoFilter>
             <ItemsPerShot>1</ItemsPerShot>
-            <ReloadTimePerShot>0.03</ReloadTimePerShot>
+            <ReloadTimePerShot>0.02</ReloadTimePerShot>
             <ReloadSound>Standard_Reload</ReloadSound>
             <GenerateAmmo>
-              <FF_Ammunition_Industrial>120~240</FF_Ammunition_Industrial>
+              <FF_Ammunition_Industrial>192~192</FF_Ammunition_Industrial>
             </GenerateAmmo>
           </li>
       </value>
     </match>
 
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_SaigaTwelveK"]/comps</xpath>
+      <xpath>Defs/ThingDef[defName="HRK_AATwelve"]/comps</xpath>
       <value>
           <li Class="Reloading.CompProperties_Reloadable">
             <compClass>Reloading.CompReloadable</compClass>
-            <MaxShots>20</MaxShots> <!-- burstShotCount 4 -->
+            <MaxShots>32</MaxShots> <!-- burstShotCount 6 -->
             <AmmoFilter>
               <thingDefs> <!-- 12 Gauge -->
                 <li>FF_Ammunition_Industrial</li>
               </thingDefs>
             </AmmoFilter>
             <ItemsPerShot>5</ItemsPerShot>
-            <ReloadTimePerShot>0.2</ReloadTimePerShot>
+            <ReloadTimePerShot>0.13</ReloadTimePerShot>
             <ReloadSound>Standard_Reload</ReloadSound>
             <GenerateAmmo>
-              <FF_Ammunition_Industrial>100~200</FF_Ammunition_Industrial>
+              <FF_Ammunition_Industrial>160~160</FF_Ammunition_Industrial>
             </GenerateAmmo>
           </li>
       </value>
@@ -413,7 +463,7 @@
   </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="HRK_SaigaTwelveK"]</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_AATwelve"]</xpath>
     <value>
       <li Class="AnimalBehaviours.AnimalStatExtension">
         <statToAdd>
@@ -429,12 +479,12 @@
     </value>
   </Operation>
 
-<!-- Bullpup PKP -->
+<!-- M202A1 -->
 
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="HRK_BullpupPKP"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_M202F"]/comps</xpath>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_BullpupPKP"]</xpath>
+      <xpath>Defs/ThingDef[defName="HRK_M202F"]</xpath>
       <value>
         <comps />
       </value>
@@ -442,18 +492,118 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="HRK_BullpupPKP"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_M202F"]/comps</xpath>
     <value>
       <li Class="Reloading.CompProperties_Reloadable">
         <compClass>Reloading.CompReloadable</compClass>
-        <MaxShots>100</MaxShots> <!-- burstShotCount 6 -->
+        <MaxShots>4</MaxShots> <!-- burstShotCount 2 -->
         <AmmoFilter>
-          <thingDefs> <!-- 762x54mmR -->
+          <thingDefs> <!-- M74 -->
+            <li>FF_Ammunition_Industrial</li>
+          </thingDefs>
+        </AmmoFilter>
+        <ItemsPerShot>5</ItemsPerShot>
+        <ReloadTimePerShot>2.0</ReloadTimePerShot>
+		<ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>40~60</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="HRK_M202F"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- M4 US -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="HRK_M4US"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="HRK_M4US"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="HRK_M4US"]/comps</xpath>
+    <value>
+      <li Class="Reloading.CompProperties_Reloadable">
+        <compClass>Reloading.CompReloadable</compClass>
+        <MaxShots>30</MaxShots> <!-- burstShotCount 4 -->
+        <AmmoFilter>
+          <thingDefs> <!-- 556x45mm NATO -->
             <li>FF_Ammunition_Industrial</li>
           </thingDefs>
         </AmmoFilter>
         <ItemsPerShot>1</ItemsPerShot>
-        <ReloadTimePerShot>0.075</ReloadTimePerShot>
+        <ReloadTimePerShot>0.13</ReloadTimePerShot>
+		<ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>60~90</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="HRK_M4US"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- M240B -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="HRK_M240B"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="HRK_M240B"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="HRK_M240B"]/comps</xpath>
+    <value>
+      <li Class="Reloading.CompProperties_Reloadable">
+        <compClass>Reloading.CompReloadable</compClass>
+        <MaxShots>100</MaxShots> <!-- burstShotCount 7 -->
+        <AmmoFilter>
+          <thingDefs> <!-- 762x51mm NATO -->
+            <li>FF_Ammunition_Industrial</li>
+          </thingDefs>
+        </AmmoFilter>
+        <ItemsPerShot>1</ItemsPerShot>
+        <ReloadTimePerShot>0.065</ReloadTimePerShot>
 		<ReloadSound>Standard_Reload</ReloadSound>
           <GenerateAmmo>
             <FF_Ammunition_Industrial>100~200</FF_Ammunition_Industrial>
@@ -463,7 +613,7 @@
   </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="HRK_BullpupPKP"]</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_M240B"]</xpath>
     <value>
       <li Class="AnimalBehaviours.AnimalStatExtension">
         <statToAdd>
@@ -479,12 +629,12 @@
     </value>
   </Operation>
 
-<!-- Glock 17 -->
+<!-- Pulse Rifle -->
 
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="HRK_GlockSeventeen"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_PulseRifle"]/comps</xpath>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="HRK_GlockSeventeen"]</xpath>
+      <xpath>Defs/ThingDef[defName="HRK_PulseRifle"]</xpath>
       <value>
         <comps />
       </value>
@@ -492,38 +642,88 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="HRK_GlockSeventeen"]/comps</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_PulseRifle"]/comps</xpath>
     <value>
       <li Class="Reloading.CompProperties_Reloadable">
         <compClass>Reloading.CompReloadable</compClass>
-        <MaxShots>21</MaxShots> <!-- burstShotCount 1 -->
+        <MaxShots>500</MaxShots> <!-- burstShotCount 5 -->
         <AmmoFilter>
-          <thingDefs> <!-- 9x19mm Para -->
-            <li>FF_Ammunition_Industrial</li>
+          <thingDefs> <!-- 10x28mm Caseless -->
+            <li>FF_Ammunition_Spacer</li>
           </thingDefs>
         </AmmoFilter>
         <ItemsPerShot>1</ItemsPerShot>
-        <ReloadTimePerShot>0.1</ReloadTimePerShot>
+        <ReloadTimePerShot>0.014</ReloadTimePerShot>
 		<ReloadSound>Standard_Reload</ReloadSound>
           <GenerateAmmo>
-            <FF_Ammunition_Industrial>42~63</FF_Ammunition_Industrial>
+            <FF_Ammunition_Spacer>500~500</FF_Ammunition_Spacer>
           </GenerateAmmo>
       </li>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="HRK_GlockSeventeen"]</xpath>
+    <xpath>Defs/ThingDef[defName="HRK_PulseRifle"]</xpath>
     <value>
       <li Class="AnimalBehaviours.AnimalStatExtension">
         <statToAdd>
           <li>FF_Ammo_Type</li>	
         </statToAdd>
         <statValues>
-          <li>FF_Industrial_Ammo</li>
+          <li>FF_Spacer_Ammo</li>
         </statValues>
         <statDescriptions>
-          <li>FF_Industrial_Desc</li>
+          <li>FF_Spacer_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- M56 Smartgun -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="HRK_M56SG"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="HRK_M56SG"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="HRK_M56SG"]/comps</xpath>
+    <value>
+      <li Class="Reloading.CompProperties_Reloadable">
+        <compClass>Reloading.CompReloadable</compClass>
+        <MaxShots>500</MaxShots> <!-- burstShotCount 9 -->
+        <AmmoFilter>
+          <thingDefs> <!-- 10x28mm Caseless -->
+            <li>FF_Ammunition_Spacer</li>
+          </thingDefs>
+        </AmmoFilter>
+        <ItemsPerShot>1</ItemsPerShot>
+        <ReloadTimePerShot>0.014</ReloadTimePerShot>
+		<ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Spacer>500~500</FF_Ammunition_Spacer>
+          </GenerateAmmo>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="HRK_M56SG"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Spacer_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Spacer_Desc</li>
         </statDescriptions>
       </li>
     </value>
