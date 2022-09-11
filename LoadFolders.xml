@@ -187,12 +187,20 @@
  
         <li IfModActive="Harkon.GunNut.ColtAnaconda">1.3/Mods/Gun_Nut/GunNut_ColtAnaconda</li>
  
+        <li IfModActive="Harkon.GunNut.DTMDRX">1.3/Mods/Gun_Nut/GunNut_DTMDRX</li>
+ 
         <li IfModActive="Harkon.GunNut.GaussRifle">1.3/Mods/Gun_Nut/GunNut_GaussRifle</li>
  
+        <li IfModActive="Harkon.GunNut.SovietSMGs">1.3/Mods/Gun_Nut/GunNut_SovietSMGs</li>
+ 
+        <li IfModActive="Harkon.Other.BarretMRADGeisseleURGI">1.3/Mods/Gun_Nut/GunNut_BarretMRADGeisseleURGI</li>
+
         <li IfModActive="Harkon.Other.GarandWinchesterColt">1.3/Mods/Gun_Nut/GunNut_GarandWinchesterColt</li>
         <li IfModActive="Harkon.Other.GarandWinchesterColt">1.3/Ammo/Ammo_Preindustial</li>
  
         <li IfModActive="Harkon.Other.Glock20">1.3/Mods/Gun_Nut/GunNut_Glock20</li>
+
+        <li IfModActive="Harkon.Other.SigMCX">1.3/Mods/Gun_Nut/GunNut_SigMCX</li>
 
       <!-- PlanetSide -->
 
