@@ -26,7 +26,6 @@
         </AmmoFilter>
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
-		<ReloadSound>Standard_Reload</ReloadSound>
           <GenerateAmmo>
             <FF_Ammunition_Preindustrial>20~30</FF_Ammunition_Preindustrial>
           </GenerateAmmo>
@@ -76,7 +75,6 @@
         </AmmoFilter>
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
-		<ReloadSound>Standard_Reload</ReloadSound>
           <GenerateAmmo>
             <FF_Ammunition_Preindustrial>30~45</FF_Ammunition_Preindustrial>
           </GenerateAmmo>
@@ -126,7 +124,6 @@
         </AmmoFilter>
         <ItemsPerShot>1</ItemsPerShot>
         <ReloadTimePerShot>0.1</ReloadTimePerShot>
-		<ReloadSound>Standard_Reload</ReloadSound>
           <GenerateAmmo>
             <FF_Ammunition_Preindustrial>20~30</FF_Ammunition_Preindustrial>
           </GenerateAmmo>
