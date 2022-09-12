@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- See Languages folder for text replacement, this was done for ease of translators -->
+
+<!-- HMG Nest -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_NestHMG"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    <value>
+      <thingDefs>
+	    <li>FF_Ammunition_Industrial</li>
+	  </thingDefs>
+    </value>
+  </Operation>
+
+<!-- AGS -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_NestAGS"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    <value>
+      <thingDefs>
+	    <li>FF_Ammunition_Industrial</li>
+	  </thingDefs>
+    </value>
+  </Operation>
+
+<!-- MMG -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Turret_NestMMG"]/comps</xpath>
+    <value>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until out of ammo</fuelLabel>
+        <fuelGizmoLabel>Ammo</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>FF_Ammunition_Industrial</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>60</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.1667</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <atomicFueling>true</atomicFueling>
+        <fuelMultiplier>1</fuelMultiplier>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
+        <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

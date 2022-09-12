@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+<!-- HMG Nest -->
+  <Turret_NestHMG.comps.CompRefuelable.fuelGizmoLabel>Ammo</Turret_NestHMG.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_NestHMG.comps.CompRefuelable.fuelLabel>Shots until out of ammo</Turret_NestHMG.comps.CompRefuelable.fuelLabel>
+  <Turret_NestHMG.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Out of ammo</Turret_NestHMG.comps.CompRefuelable.outOfFuelMessage>
+<!-- AGS -->
+  <Turret_NestAGS.comps.CompRefuelable.fuelGizmoLabel>Ammo</Turret_NestAGS.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_NestAGS.comps.CompRefuelable.fuelLabel>Shots until out of ammo</Turret_NestAGS.comps.CompRefuelable.fuelLabel>
+  <Turret_NestAGS.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Out of ammo</Turret_NestAGS.comps.CompRefuelable.outOfFuelMessage>
+<!-- MMG
+  <Turret_NestMMG.comps.CompRefuelable.fuelGizmoLabel>Ammo</Turret_NestMMG.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_NestMMG.comps.CompRefuelable.fuelLabel>Shots until out of ammo</Turret_NestMMG.comps.CompRefuelable.fuelLabel>
+  <Turret_NestMMG.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Out of ammo</Turret_NestMMG.comps.CompRefuelable.outOfFuelMessage>
+ -->
+</LanguageData>
