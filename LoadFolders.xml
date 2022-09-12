@@ -116,6 +116,12 @@
 
         <li IfModActive="Aelanna.EccentricExtras.SignatureWeapons">1.3/Mods/Eccentric_Tech/Signature_Weapons</li>
 
+      <!-- Elder Scrolls -->
+
+        <li IfModActive="TESV.DwemerWeapons">1.3/Mods/Elder_Scrolls/DwemerWeapons</li>
+
+        <li IfModActive="UESCPE.ImperialWeapons">1.3/Mods/Elder_Scrolls/ImperialWeapons</li>
+
       <!-- Fallout Collaboration Project -->
 
         <li IfModActive="Rick.FCPFNVARLMG">1.3/Mods/FCP/FCP_AssaultLMG</li>
@@ -318,6 +324,8 @@
         <li IfModActive="Mlie.BlackWidows">1.3/Ammo/Ammo_Ultratech</li>
 
         <li IfModActive="Mlie.BorgRace">1.3/Mods/Races/Borg</li>
+
+        <li IfModActive="Millap.Bori">1.3/Mods/Races/Bori</li>
 
         <li IfModActive="goudaquiche.CrystalRace">1.3/Mods/Races/Crystal</li>
 

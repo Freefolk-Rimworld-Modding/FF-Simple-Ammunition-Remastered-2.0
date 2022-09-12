@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- Bolt-Action Rifle -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_BoltActionRifle"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_BoltActionRifle"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_BoltActionRifle"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>10</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Industrial</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.1</ReloadTimePerShot>
+          <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>30~50</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_BoltActionRifle"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- Light Weighted Bolt-Action Rifle -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_LightWeightedBoltActionRifle"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_LightWeightedBoltActionRifle"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_LightWeightedBoltActionRifle"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>10</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Industrial</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.1</ReloadTimePerShot>
+          <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>30~50</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_LightWeightedBoltActionRifle"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- SMG -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_SdangSMG"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_SdangSMG"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_SdangSMG"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>30</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Industrial</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.03</ReloadTimePerShot>
+		  <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>60~90</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_SdangSMG"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- HMG -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_HeavyMachineGun"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_HeavyMachineGun"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_HeavyMachineGun"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>80</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Industrial</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.03</ReloadTimePerShot>
+		  <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>120~180</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_HeavyMachineGun"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- Mounted HMG -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_MtHeavyMachineGun"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_MtHeavyMachineGun"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_MtHeavyMachineGun"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>80</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Industrial</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.03</ReloadTimePerShot>
+		  <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>120~180</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_MtHeavyMachineGun"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- Assault Rifle -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_AssaultRifle"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_AssaultRifle"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_AssaultRifle"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>30</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Industrial</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.05</ReloadTimePerShot>
+          <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>60~90</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_AssaultRifle"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- Autopistol -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_Autopistol"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_Autopistol"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_Autopistol"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>7</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Industrial</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.1</ReloadTimePerShot>
+          <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>30~45</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_Autopistol"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- Auto Bolt Action Rifle -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_AutoBoltActionRifle"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_AutoBoltActionRifle"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_AutoBoltActionRifle"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>10</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Industrial</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.1</ReloadTimePerShot>
+		  <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>20~40</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_AutoBoltActionRifle"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- Sniper Rifle -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_Sniper"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_Sniper"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_Sniper"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>5</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Industrial</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.2</ReloadTimePerShot>
+          <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>15~30</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_Sniper"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- Heavy SMG -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_HeavySMG"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_HeavySMG"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_HeavySMG"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>24</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Industrial</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.05</ReloadTimePerShot>
+          <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Industrial>25~75</FF_Ammunition_Industrial>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_HeavySMG"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Industrial_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Industrial_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- Charge Rifle -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_ChargeRifle"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_ChargeRifle"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_ChargeRifle"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>45</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Spacer</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.03</ReloadTimePerShot>
+          <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Spacer>90~135</FF_Ammunition_Spacer>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_ChargeRifle"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Spacer_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Spacer_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+<!-- Charge SMG -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="BD_ChargeSMG"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BD_ChargeSMG"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BD_ChargeSMG"]/comps</xpath>
+    <value>
+        <li Class="Reloading.CompProperties_Reloadable">
+          <compClass>Reloading.CompReloadable</compClass>
+          <MaxShots>45</MaxShots>
+          <AmmoFilter>
+            <thingDefs>
+              <li>FF_Ammunition_Spacer</li>
+            </thingDefs>
+          </AmmoFilter>
+          <ItemsPerShot>1</ItemsPerShot>
+          <ReloadTimePerShot>0.2</ReloadTimePerShot>
+		  <ReloadSound>Standard_Reload</ReloadSound>
+          <GenerateAmmo>
+            <FF_Ammunition_Spacer>90~135</FF_Ammunition_Spacer>
+          </GenerateAmmo>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BD_ChargeSMG"]</xpath>
+    <value>
+      <li Class="AnimalBehaviours.AnimalStatExtension">
+        <statToAdd>
+          <li>FF_Ammo_Type</li>	
+        </statToAdd>
+        <statValues>
+          <li>FF_Spacer_Ammo</li>
+        </statValues>
+        <statDescriptions>
+          <li>FF_Spacer_Desc</li>
+        </statDescriptions>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>
